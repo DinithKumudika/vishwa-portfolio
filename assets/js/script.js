@@ -36,7 +36,7 @@ var typewriter = new Typewriter(typingEffectText, {
 });
 
 typewriter
-  .typeString("Hello, I'm Vishwa Rajakaruna")
+  .typeString("<h3>Vishwa Rajakaruna</h3>")
   .pauseFor(300)
   .start();
 
