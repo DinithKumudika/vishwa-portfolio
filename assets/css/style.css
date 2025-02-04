@@ -198,10 +198,24 @@ svg {
   transition: 1s ease-in-out;
 }
 
-/* .btn:hover {
+.btn:hover {
   transition: 1s ease-in-out;
   background: hsl(45, 54%, 58%);
+  color: black;
+}
+
+/* .btn:hover span {
+  color: #ff0000;
 } */
+
+.btn a {
+  color: hsl(45, 54%, 58%);
+  text-decoration: none;
+}
+
+.btn:hover a {
+  color: var(--eerie-black-2);
+}
 
 .sidebar,
 article {
